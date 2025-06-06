@@ -1,1 +1,5 @@
-npm install package-name --save
+{
+  "name": "lucky-charm",
+  "version": "1.0.0",
+  "dependencies": {}
+}
