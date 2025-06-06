@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lucky Charm - Dice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🍀 Lucky Charm Dice 🍀</h1>
+
+    <input
+      type="number"
+      id="diceGuess"
+      placeholder="Guess the dice (1-6)"
+      min="1"
+      max="6"
+    />
+    <button onclick="playDice()">Roll Dice</button>
+
+    <div class="dice-result" id="diceResult"></div>
+
+    <p id="message" class="message"></p>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="slots.html">Slots</a>
+    </nav>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
